@@ -1,0 +1,58 @@
+/* Para poner el fondo oscuro */
+body {
+    background-color: #0d0d26;
+}
+
+/* Para poner el texto blanco */
+p,h1,h2,h3,h4,h5,h6,a,li {
+    color: white;
+}
+
+/* Para cambiar la apariencia de los titulares */
+h1,h2,h3,h4,h5,h6 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Para cambiar la apariencia de los ítems */
+ol {
+    list-style-type: katakana;    
+}
+
+/* Para que los artículos aparezcan uno al lado del otro */
+main {
+    display: flex;
+    margin-top: 10px;
+}
+
+/* Para que los artículos ocupen todo el lugar posible */
+article {
+    flex-grow: 4;
+}
+
+/* Para poner la línea debajo del primer título */
+header {
+    border-bottom: 1px solid white;
+}
+
+/* Para achicar la foto */
+#yo-foto {
+    width: 200px;
+}
+
+/* Para agregarle borde a la imagen */
+img {
+    width: 100%;
+    border: 1px solid white;
+    
+}
+ 
+/* Para que el video ocupe el 80% de la pantalla */
+video {
+    width: 80%;
+}
+
+/* Para centrar el video y su titular */
+aside {
+    text-align: center;
+}
